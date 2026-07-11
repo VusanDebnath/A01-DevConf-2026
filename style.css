@@ -19,12 +19,12 @@ body {
   cursor: pointer;
 }
 .btn-primary {
-  background-color: #4353ff;
+  background-color: #4f46e5;
   color: #fff;
 }
 .btn-primary:hover {
   opacity: 0.9;
-  background-color: #3340d1;
+  background-color: #4338ca;
 }
 
 /* Header Styles */
@@ -338,4 +338,156 @@ header {
   text-align: center;
   color: #9ca3af;
   font-size: 15px;
+}
+
+/* ==== "Alumni Success Wall" ==== */
+/*--------- asw-section ----------*/
+.asw-section {
+  background: #ffffff;
+  padding: 96px 24px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+}
+
+.asw-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.asw-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 56px;
+}
+
+.asw-eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4f46e5;
+  margin: 0 0 12px;
+}
+
+.asw-heading {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #0b1120;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.asw-subtext {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5b6272;
+  margin: 0;
+}
+
+.asw-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.asw-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 28px 24px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.asw-card:hover {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  transform: translateY(-2px);
+}
+
+.asw-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #e2e5ea;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 16px;
+}
+
+.asw-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0b1120;
+  margin: 0 0 10px;
+}
+
+.asw-quote {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4b5160;
+  font-style: italic;
+  margin: 0 0 18px;
+  flex-grow: 1;
+}
+
+.asw-tag {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.asw-tag-before {
+  color: #5b6272;
+  background: #f3f4f6;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.asw-arrow {
+  color: #a0a4ad;
+}
+
+.asw-tag-after {
+  color: #4f46e5;
+  background: #eef0fe;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.asw-cta {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.asw-cta-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0b1120;
+  margin: 0 0 16px;
+}
+
+.asw-cta-button {
+  display: inline-block;
+  background: #4f46e5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.asw-cta-button:hover {
+  background: #4338ca;
 }
